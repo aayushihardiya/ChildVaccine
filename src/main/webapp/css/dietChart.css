@@ -1,0 +1,57 @@
+@CHARSET "ISO-8859-1";
+  * {
+				font-family: Georgia;
+			}
+            body{
+                padding: 0px;
+                font-family: Georgia;
+                font-size: 16px;
+            }
+            .data{
+                width: 70%;
+                text-align: left;
+                
+            }
+            .dietForm{
+                background: #F8F8F8;
+                padding: 30px;
+                align-content: center;
+            }
+        
+            .form{
+                
+                width: 70%;
+                padding: 20px;
+                margin: 10px 15%;
+            
+                border-radius: 5px;
+            }    
+            
+            table{
+                table-layout: auto;
+                padding: 20px;
+                border-radius: 3px;
+            }
+           
+            th{
+                
+                width: auto;
+                padding: 15px;
+                background:#4985C4;
+                color: white;
+                
+            }
+            
+            td{
+                padding: 15px;
+            }
+            
+            tr:nth-child(even) {background-color: #f2f2f2;}
+            
+            button{
+            
+            background:#4985C4;
+             padding:7px;
+            border: 1 px solid gray;
+            border-radius: 5px;
+            }
